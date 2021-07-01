@@ -82,3 +82,27 @@ function pow(x, n) {
     return result;
 }
 console.log(pow(2, 4));
+
+console.log('------------- #8')
+
+function isBigger(x, y) {
+    if (x > y) {
+        console.log(true);
+    } else {
+        console.log(false);
+    }
+}
+isBigger(5, 4);
+isBigger(7, 16);
+
+console.log('------------- #9')
+
+function isSmaller(x, y) {
+    if (x < y) {
+        console.log(true);
+    } else {
+        console.log(false);
+    }
+}
+isSmaller(5, 4);
+isSmaller(7, 16);
